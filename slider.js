@@ -1,6 +1,13 @@
+function Slider() {
+	
+}
+
+
 var sliderFactory = {
 	createSlider: function() {
-		var newSlider = { // объявляем объект
+		var newSlider =  new Slider();
+			
+			{ // объявляем объект
 			showPrevBtn: null, //document.querySelector('.btnPrev'), //поиск элемента по классу Назад
 			showNextBtn: null,//document.querySelector('.btnNext'),//поиск элемента по классу Вперёд
 			slideImg: null, //document.querySelector('.slideImg'),//поиск элемента по классу Картинка
